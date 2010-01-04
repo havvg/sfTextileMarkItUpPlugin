@@ -6,23 +6,29 @@
 // markItUp! Universal MarkUp Engine, JQuery plugin
 // By Jay Salvat - http://markitup.jaysalvat.com/
 // ------------------------------------------------------------------*/
+#sf_admin_container .markItUp *,
 .markItUp * {
   margin: 0px;
   outline: none;
   padding: 0px;
 }
+#sf_admin_container .markItUp a:link,
 .markItUp a:link,
+#sf_admin_container .markItUp a:visited,
 .markItUp a:visited {
   color: #000;
   text-decoration: none;
 }
+#sf_admin_container .markItUp,
 .markItUp  {
   margin: 0px 0px 5px 0px;
   width: 670px;
 }
+#sf_admin_container .markItUpContainer,
 .markItUpContainer  { 
   padding: 5px 5px 2px 5px;
 }
+#sf_admin_container .markItUpEditor,
 .markItUpEditor {
   border: 1px solid #CCC;
   clear: both; 
@@ -35,6 +41,7 @@
   padding: 5px;
   width: 649px;
 }
+#sf_admin_container .markItUpPreviewFrame,
 .markItUpPreviewFrame {
   background-color: #FFFFFF;
   border: 1px solid #CCC;
@@ -43,10 +50,12 @@
   overflow: auto;
   width: 99.9%;
 }
+#sf_admin_container .markItUpFooter,
 .markItUpFooter {
   cursor: n-resize;
   width: 100%;
 }
+#sf_admin_container .markItUpResizeHandle,
 .markItUpResizeHandle {
   background-image: url(/sfTextileMarkItUpPlugin/images/handle.png);
   cursor: n-resize; 
@@ -58,24 +67,30 @@
 }
 
 /* first row of buttons */
+#sf_admin_container .markItUpHeader ul li,
 .markItUpHeader ul li {
   float: left;
   list-style: none;
   position: relative;
 }
-.markItUpHeader ul li ul{
+#sf_admin_container .markItUpHeader ul li ul,
+.markItUpHeader ul li ul {
   display: none;
 }
-.markItUpHeader ul li:hover > ul{
+#sf_admin_container .markItUpHeader ul li:hover > ul,  
+.markItUpHeader ul li:hover > ul {
   display: block;
 }
+#sf_admin_container .markItUpHeader ul .markItUpDropMenu,
 .markItUpHeader ul .markItUpDropMenu {
   background: transparent url(/sfTextileMarkItUpPlugin/images/menu.png) no-repeat 115% 50%;
   margin-right: 5px;
 }
+#sf_admin_container .markItUpHeader ul .markItUpDropMenu li,
 .markItUpHeader ul .markItUpDropMenu li {
   margin-right: 0px;
 }
+#sf_admin_container .markItUpHeader ul .markItUpSeparator,
 .markItUpHeader ul .markItUpSeparator {
   background-color: #CCC;
   height: 16px;
@@ -83,12 +98,14 @@
   overflow: hidden;
   width: 1px;
 }
+#sf_admin_container .markItUpHeader ul ul .markItUpSeparator,
 .markItUpHeader ul ul .markItUpSeparator {
   height: 1px;
   margin: 0px;
   width: auto; 
 }
 /* next rows of buttons */
+#sf_admin_container .markItUpHeader ul ul, 
 .markItUpHeader ul ul {
   background: #F5F5F5;
   border: 1px solid #3C769D;
@@ -98,20 +115,24 @@
   position: absolute;
   top: 18px; 
 }
+#sf_admin_container .markItUpHeader ul ul li,
 .markItUpHeader ul ul li {
   border-bottom: 1px solid #3C769D;
   float: none;
 }
 
 /* next rows of buttons */
+#sf_admin_container .markItUpHeader ul ul ul, 
 .markItUpHeader ul ul ul {
   left: 150px;
   position: absolute;
   top: -1px; 
 }
+#sf_admin_container .markItUpHeader ul ul ul li, 
 .markItUpHeader ul ul ul li {
   float: none;
 }
+#sf_admin_container .markItUpHeader ul a, 
 .markItUpHeader ul a {
   background-repeat: no-repeat;
   display: block;
@@ -121,6 +142,7 @@
   text-indent: -10000px;
   width: 16px; 
 }
+#sf_admin_container .markItUpHeader ul ul a,
 .markItUpHeader ul ul a {
   background-position: 2px 50%;
   display: block;
@@ -128,64 +150,77 @@
   text-indent: 0;
   width: 120px; 
 }
+#sf_admin_container .markItUpHeader ul ul a:hover,
 .markItUpHeader ul ul a:hover  {
   background-color: #3C769D;
   color: #FFF;
 }
 
+#sf_admin_container .markItUp .markItUpButton1 a,
 .markItUp .markItUpButton1 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/h1.png); 
 }
+#sf_admin_container .markItUp .markItUpButton2 a,
 .markItUp .markItUpButton2 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/h2.png); 
 }
+#sf_admin_container .markItUp .markItUpButton3 a,
 .markItUp .markItUpButton3 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/h3.png); 
 }
+#sf_admin_container .markItUp .markItUpButton4 a,
 .markItUp .markItUpButton4 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/h4.png); 
 }
+#sf_admin_container .markItUp .markItUpButton5 a,
 .markItUp .markItUpButton5 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/h5.png); 
 }
+#sf_admin_container .markItUp .markItUpButton6 a,
 .markItUp .markItUpButton6 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/h6.png); 
 }
+#sf_admin_container .markItUp .markItUpButton7 a,
 .markItUp .markItUpButton7 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/paragraph.png); 
 }
-
+#sf_admin_container .markItUp .markItUpButton8 a,
 .markItUp .markItUpButton8 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/bold.png);
 }
+#sf_admin_container .markItUp .markItUpButton9 a,
 .markItUp .markItUpButton9 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/italic.png);
 }
+#sf_admin_container .markItUp .markItUpButton10 a,
 .markItUp .markItUpButton10 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/stroke.png);
 }
-
+#sf_admin_container .markItUp .markItUpButton11 a,
 .markItUp .markItUpButton11 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/list-bullet.png);
 }
+#sf_admin_container .markItUp .markItUpButton12 a,
 .markItUp .markItUpButton12 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/list-numeric.png);
 }
-
+#sf_admin_container .markItUp .markItUpButton13 a,
 .markItUp .markItUpButton13 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/picture.png); 
 }
+#sf_admin_container .markItUp .markItUpButton14 a,
 .markItUp .markItUpButton14 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/link.png);
 }
-
+#sf_admin_container .markItUp .markItUpButton15 a,
 .markItUp .markItUpButton15 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/quotes.png);
 }
+#sf_admin_container .markItUp .markItUpButton16 a,
 .markItUp .markItUpButton16 a {
   background-image: url(/sfTextileMarkItUpPlugin/images/code.png);
 }
-
+#sf_admin_container .markItUp .preview a,
 .markItUp .preview a {
   background-image: url(/sfTextileMarkItUpPlugin/images/preview.png);
 }
