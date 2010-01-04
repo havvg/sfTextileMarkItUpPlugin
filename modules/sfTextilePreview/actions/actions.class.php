@@ -18,7 +18,6 @@ class sfTextilePreviewActions extends sfActions
   public function executePreviewTextile(sfWebRequest $request)
   {
     $this->setLayout(false);
-    $this->executePreviewTextile()
 
     $this->message = sfTextile::doConvert($request->getPostParameter('data'));
 
