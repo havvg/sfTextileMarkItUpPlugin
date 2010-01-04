@@ -11,7 +11,7 @@
  * The configuration of the sfTextileMarkItUpPlugin.
  * Includes all dependencies.
  */
-class sfTextileMarkItUpPluginPluginConfiguration extends sfPluginConfiguration
+class sfTextileMarkItUpPluginConfiguration extends sfPluginConfiguration
 {
   static protected $DEPENDENCIES = array(
     'sfTextilePlugin' => 'textile support',
