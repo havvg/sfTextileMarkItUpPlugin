@@ -1,0 +1,32 @@
+sfTextileMarkItUp plugin
+========================
+
+The `sfTextileMarkItUp` is a symfony plugin that provides textile support within
+the view layer using markItUp! Universal MarkUp Engine, JQuery plugin.
+
+Usage
+-----
+
+To use this plugin, include the plugins assets or overwrite the related contents
+with your own assets.
+
+To enable this feature, call markItUp on the related jQuery selector e.g.
+
+    [javascript]
+    $('#sendmessage_content').markItUp(myTextileSettings)
+
+Libraries
+---------
+
+  * markItUp! Universal MarkUp Engine, JQuery plugin
+    * v 1.1.5, Dual licensed under the MIT and GPL licenses. 
+    *  Copyright (C) 2007-2008 Jay Salvat http://markitup.jaysalvat.com/
+  * T E X T I L E
+    * Version 2.0
+    * Copyright (c) 2003-2004, Dean Allen <dean@textism.com>, All rights reserved.
+    
+License
+-------
+
+For detailed license information please view the LICENSE file and the included
+license information of all libraries.
